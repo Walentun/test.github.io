@@ -1,0 +1,161 @@
+
+body {
+    color: #ffffff;
+    background-color: #2a2929;
+}
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background: url(/src/img/header-bcg.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header-nav-bcg {
+    height: 92px;
+    width: 100%;
+    background-color: rgba(37, 34, 32, 0.25);
+    font-family: "TT Commons", "sans serif";
+}
+li {
+    padding-left: 41px;
+    list-style-type: none;
+}
+.header-nav-bcg .wrapper-nav, ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav-bcg span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 14.87px;
+}
+.header-nav-bcg li {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 12.76px;
+}
+.border-red {
+   border: 1px solid red;
+   border-radius: 19px;
+   padding: 12px 20px;
+   margin-left: 41px;
+}
+.wrapper-nav {
+    height: 92px;
+    justify-content: space-between;
+}
+.wrapper-nav span a {
+    font-family: "TT Commons";
+    font-size: 20px;
+    font-weight: 700;
+}
+.wrapper-colt {
+    display: flex;
+    justify-content: space-between;
+    font-family: "TT Commons";
+    margin-top: 81px;
+}
+.wrapper-colt h1 {
+    font-size: 51px;
+    font-weight: 400;
+    padding-top: 136px;
+    line-height: 36.89px;
+}
+.wrapper-colt h2 {
+    padding-top: 44px;
+    font-size: 21px;
+    font-weight: 300;
+}
+.buttons {
+    font-family: "TT Commons";
+    font-size: 15px;
+    font-weight: 300;
+    width: 458px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-top: -126px;
+}
+.left-b {
+    border-radius: 16px;
+    background-color: #ad3636;
+    padding: 12px 70px;
+}
+.right-b {
+    border-radius: 16px;
+    border: 2px solid #ffffff;
+    padding: 12px 79px 12px 70px;
+}
+.wrapper-statistics .left h1 {
+    font-family: "TT Commons";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 20.97px;
+}
+.wrapper-statistics .left h1 span {
+    color: #6a6a6a;
+    font-family: "TT Commons";
+    font-size: 47px;
+    font-weight: 300;
+    line-height: 56.79px;
+}
+.wrapper-statistics .left .full-titles {
+    font-family: "TT Commons";
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25.53px;
+}
+.wrapper-statistics .left  span {
+    color: #5aaf3c;
+
+}
+.wrapper-statistics .left {
+    padding-top: 34px;
+}
+.wrapper-statistics {
+    
+}
+.wrapper-statistics .right {
+    width: 596px;
+    height: 213px;
+    border-radius: 40px;
+    background: #232222; 
+}
+.wrapper-statistics {
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.wrapper-statistics .right ul {
+    width: 550px;
+    font-family: "TT Commons";
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25.53px;
+}
+.wrapper-statistics .right ul span {
+    color: #ad3636;
+    padding-left: 4px;
+}
+.wrapper-statistics .right li, .li_user {
+    padding-top: 31px;
+    display: flex;
+}
+.li_user {
+    margin-top: -4px;
+}
+.loading {
+    width: 534px;
+    height: 23px;
+    border-radius: 11px;
+    background-color: #ffffff;
+    margin: 24px 30px;
+}
+.ip {
+    
+}
